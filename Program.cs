@@ -5,6 +5,7 @@ namespace MongoDBManager
     {
         // Solution archiviata su Git, nel mio repository personale/aziendale
         // https://github.com/claudioorlandi/MongoDBManager
+        // Tenere d'occhio le eventuali modifiche successive da gestire su branch
 
         public static void Main(string[] args)
         {
