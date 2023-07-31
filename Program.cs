@@ -3,6 +3,9 @@ namespace MongoDBManager
 {
     public class Program
     {
+        // Solution archiviata su Git, nel mio repository personale/aziendale
+        // https://github.com/claudioorlandi/MongoDBManager
+
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
