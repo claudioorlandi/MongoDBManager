@@ -11,6 +11,7 @@ namespace MongoDBManager.Controllers
     {
         private IMongoCollection<Car> cars;
 
+        // Faccio il contrario e aggiorno il mio repo locale con il repo remoto
         public CarController(IOptions<CarConfig> carOptions)
         {
             var mongoClient = new MongoClient(carOptions.Value.ConnectionString);
